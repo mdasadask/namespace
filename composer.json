@@ -1,0 +1,15 @@
+{
+  "name": "mdasa/namespace",
+  "authors": [
+    {
+      "name": "Asad",
+      "email": "mdasadask@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Animals\\": "Animals/"
+    }
+  }
+}
