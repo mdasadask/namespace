@@ -2,14 +2,23 @@
 
 namespace Animals;
 
-// autoload hoyeche, but namespace alada, tai use 
+/**
+ * ! 1. autoload hoyeche, but namespace alada, tai use 
+ * include_once "./Animals/Test/TestAnimals.php";
+ * $test = new Test\a\b\c\TestAnimals();
+ * $test->greet();
+ * ! If include, can not give namespace according to folder but autoload
+ * 
+ */
 
-// use Animals\Test\TestAnimals;
+
+
+// 1. use Animals\Test\TestAnimals;
 
 include_once "vendor/autoload.php";
 
-$cat = new Cat();
-$cat->greet();
+// $cat = new Cat();
+// $cat->greet();
 
 // $test = new TestAnimals();
 // $test->greet();
